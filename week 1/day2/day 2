@@ -1,0 +1,22 @@
+Salesforce Platform Basics
+1. What is Salesforce Platform?
+The Salesforce Platform is a specialized cloud environment (PaaS) that enables businesses to build and run applications without managing infrastructure. It uses a multi-tenant architecture, allowing developers to create custom solutions—ranging from simple data tracking to complex enterprise apps—all hosted on a secure, scalable cloud.
+
+2. Core Definitions
+App: A container for a set of related objects and tabs that function together to solve a business problem.
+Object: A database table within Salesforce; standard objects like Accounts are built-in, while Custom Objects are created by users to store unique data.
+Tab: A navigational element that provides a starting point for users to view and edit data within an object.
+
+3. Difference: Configuration vs. Coding
+Configuration (Declarative): The Clicks-not-Code approach. It involves using the built-in UI to create fields, objects, and page layouts. It is faster to implement and easier to maintain.
+Coding (Programmatic): Used when business requirements exceed standard features. It involves using Apex (back-end) and Lightning Web Components (front-end) for custom logic and advanced integrations.
+
+4. Your System Design: College Admission System
+App: Student Success Portal — A custom app tailored for university admissions.
+
+Objects:
+(1)Applicants: To store student profiles and contact information.
+(2)Colleges: Utilizing the standard Account object to manage different institutions.
+(3)Applications: A custom object to track the status of specific admission requests.
+
+User Interaction: Admission officers interact with the system through a custom Home Page Dashboard, using specific Tabs to filter pending applications and update student records via Page Layouts.
