@@ -1,4 +1,4 @@
-###this is day1 record of the salesforce training
+### This is day1 record of the salesforce training
 
 ## 1.What is CRM?  
 *Customer Relationship Management (CRM) is a technology and strategy used by businesses to manage all interactions with current and potential customers. The primary goal is to improve business relationships by staying connected to customers, streamlining processes, and increasing profitability.
